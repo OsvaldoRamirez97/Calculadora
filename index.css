@@ -1,0 +1,85 @@
+html {
+    background-color: gray;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.pantalla {
+    width: 25%;
+    margin: auto;
+    margin-top: 10%;
+    background-color: rgb(194, 226, 215);
+    text-align: right;
+    border-radius: 25px;
+}
+
+.resultado {
+    margin: 0 20px;
+}
+
+.escribirNumeros {
+    padding: 0 30%;
+    margin: 20px 10px;
+    height: 5vh;
+    border-radius: 25px;
+}
+
+main {
+    width: 25%;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    border-radius: 25px;
+}
+
+.superior {
+    width: fit-content;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    width: 100%;
+    font-size: 3vh;
+}
+
+.superior > :first-child {
+    color: red;
+}
+
+.numeros {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    align-items: center;    
+    margin: 20px 10px 0 0;
+    width: 100%;
+    font-size: 3vh;
+}
+
+.artimeticos {
+    display: grid;
+    grid-template-columns: 1fr; 
+    gap: 10px;
+    margin: 0 0 0 10px;
+    width: 100%;
+}
+
+.artimeticos > :first-child {
+    margin-bottom: 10px;
+}
+
+.btn {
+    width: 5vw;
+    height: 5vh;
+    cursor: pointer;
+    border: none;
+    border-radius: 50px;
+    font-size: 3vh;
+    font-weight: bolder;
+}
