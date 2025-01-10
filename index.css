@@ -1,5 +1,5 @@
 html {
-    background-color: gray;
+    background-color: #353c41;
 }
 
 *{
@@ -9,30 +9,43 @@ html {
 }
 
 .pantalla {
+    padding: 20px;
     width: 25%;
     margin: auto;
     margin-top: 10%;
-    background-color: rgb(194, 226, 215);
+    background-color: #D976A9;
     text-align: right;
     border-radius: 25px;
 }
 
 .resultado {
     margin: 0 20px;
+    font-family: 'Courier New', Courier, monospace;
+    overflow: hidden;
 }
 
 .escribirNumeros {
-    padding: 0 30%;
-    margin: 20px 10px;
+    width: 100%;
     height: 5vh;
+    text-align: right;
+    padding: 0 20px;
     border-radius: 25px;
+    border: 2px solid #8798a5; 
+    box-shadow: inset 0 0 10px rgba(153, 171, 185, 0.8);
+    transition: all 0.s ease;
+}
+
+.escribirNumeros:focus {
+    outline: none;
+    border: 2px solid #2196F3; 
+    box-shadow: inset 0 0 10px rgba(33, 150, 243, 0.8);
 }
 
 main {
     width: 25%;
     margin: 10px auto;
     padding: 10px;
-    background-color: black;
+    background-color: #D976A9;
     display: grid;
     grid-template-columns: 3fr 1fr;
     border-radius: 25px;
@@ -82,4 +95,6 @@ main {
     border-radius: 50px;
     font-size: 3vh;
     font-weight: bolder;
+    border: 2px solid #8798a5; 
+    box-shadow: inset 0 0 10px rgba(153, 171, 185, 0.8);
 }
